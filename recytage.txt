@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReCyTage | Sustainable Waste Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Ensures videos keep their aspect ratio */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.5rem;
+            background-color: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans leading-relaxed">
+
+    <header class="bg-white border-b border-gray-200 py-6">
+        <div class="max-w-5xl mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tight text-green-700">ReCyTage</h1>
+            <span class="text-sm font-medium bg-green-100 text-green-800 px-3 py-1 rounded-full">Impact Venture</span>
+        </div>
+    </header>
+
+    <section class="max-w-5xl mx-auto px-4 py-16">
+        <div class="border-l-4 border-green-600 pl-6">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Decentralized Waste Recovery & Circular Economy</h2>
+            <p class="text-xl text-gray-600 max-w-2xl">An impact-driven venture addressing systemic failures in urban waste management. Validated and documented by <strong>UNICEF Generation Unlimited</strong>.</p>
+        </div>
+    </section>
+
+    <section class="bg-white py-16">
+        <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-sm uppercase tracking-widest text-green-600 font-bold mb-4">The Problem</h3>
+                <p class="text-gray-700">Urban centers lack localized waste segregation infrastructure, leading to unauthorized dumping and environmental degradation in marginalized areas. Current municipal systems fail to engage communities at the grassroots level.</p>
+            </div>
+            <div>
+                <h3 class="text-sm uppercase tracking-widest text-green-600 font-bold mb-4">Our Solution</h3>
+                <p class="text-gray-700">ReCyTage implements localized recovery hubs that facilitate source-level sorting. We transform waste from a community liability into a resource-generating asset through a sustainable circular economy model.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-4 py-16">
+        <h3 class="text-2xl font-bold mb-8 text-center">Impact & Validation</h3>
+        
+        <p class="text-center text-gray-600 mb-10 max-w-3xl mx-auto">
+            Our operational model and impact have been documented by international bodies. Below are the official documentation by UNICEF Generation Unlimited and our pilot implementation footage.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <div class="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
+                <h4 class="font-bold text-gray-800 mb-3">1. UNICEF GenU Documentary</h4>
+                <div class="video-container">
+                    <iframe src="https://youtube.com/shorts/77heqefD9Oc?feature=share" title="UNICEF Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
+                <h4 class="font-bold text-gray-800 mb-3">2. Pilot Implementation / Demo</h4>
+                <div class="video-container">
+                    <iframe src="https://youtu.be/pdAKyXAhuD8" title="Pilot Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-white py-16">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="border border-gray-200 p-8 rounded-lg bg-gray-50">
+                <h3 class="text-xl font-bold mb-4 text-gray-900">Leadership & Ownership</h3>
+                <p class="text-gray-700">This initiative is independently founded and led by <strong>Md. Zahidul Islam</strong>. While the project has received documentary support from UNICEF, all strategic direction, operational execution, and intellectual property remain under the founder's leadership.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-4 py-16 text-center">
+        <h3 class="text-sm uppercase tracking-widest text-gray-500 font-bold mb-2">Current Status</h3>
+        <p class="text-gray-700 italic">Early-stage impact venture; scaling and formal expansion planned via the EMMIE programme framework.</p>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <p class="text-sm text-gray-400">&copy; 2026 Project ReCyTage | Contact: Md. Zahidul Islam</p>
+        </div>
+    </footer>
+
+</body>
+</html>
